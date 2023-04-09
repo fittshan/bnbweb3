@@ -1,0 +1,162 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		{
+			"path": "pages/team/team",
+			"style": {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		{
+			"path": "pages/hash/hash",
+			"style": {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		{
+			"path": "pages/weblog/weblog",
+			"style": {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		{
+            "path" : "pages/index/trueIndex",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":false
+				}
+            }
+            
+        }
+        ,
+		{
+            "path" : "pages/index/billDetail",
+            "style" :                                                                                    
+            {
+				"app-plus":{"titleNView":false}
+            }
+        }
+        ,{
+            "path" : "pages/index/buy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/destroy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{"titleNView":false}
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/asset",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{"titleNView":false}
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/assetDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/publish",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView":false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/community",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView":false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/transfer",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView":false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/extract",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView":false
+				}
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "web3.0",
+		"navigationBarBackgroundColor": "#202020",
+		"backgroundColor": "#202020"
+	}
+}
